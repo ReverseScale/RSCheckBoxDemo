@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zA4-fD-cly">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Yeb-Jh-N91">
+            <objects>
+                <navigationController id="zA4-fD-cly" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dje-jT-LLd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RrR-ja-gH0" kind="relationship" relationship="rootViewController" id="AH2-jQ-FEp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pd4-Ze-87D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="97" y="124"/>
+        </scene>
+        <!--单选框-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SingleCheckBoxViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWm-Df-eE9" customClass="ZZCheckBoxButton">
+                                <rect key="frame" x="100.5" y="360.5" width="176" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ZhC-0h-KYE"/>
+                                </constraints>
+                                <state key="normal" title=" StoryBoard Test 02" image="but_select_nor.png">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="but_select_press.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K60-hT-bb8" customClass="ZZCheckBoxButton">
+                                <rect key="frame" x="100.5" y="311.5" width="174" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="AGo-jz-RhJ"/>
+                                </constraints>
+                                <state key="normal" title=" StoryBoard Test 01" image="but_select_nor.png">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="but_select_press.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="K60-hT-bb8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2eB-ex-GLt"/>
+                            <constraint firstItem="K60-hT-bb8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ced-sx-PM6"/>
+                            <constraint firstItem="GWm-Df-eE9" firstAttribute="top" secondItem="K60-hT-bb8" secondAttribute="bottom" constant="5" id="ihw-p2-o5e"/>
+                            <constraint firstItem="K60-hT-bb8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="usX-J8-zIL"/>
+                            <constraint firstItem="GWm-Df-eE9" firstAttribute="leading" secondItem="K60-hT-bb8" secondAttribute="leading" id="zEZ-9t-KPT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="单选框" id="ZFd-HN-8vr"/>
+                    <connections>
+                        <outletCollection property="checkBoxButtonArray" destination="K60-hT-bb8" id="k7K-Ml-PXm"/>
+                        <outletCollection property="checkBoxButtonArray" destination="GWm-Df-eE9" id="cDo-tT-oxB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661.5999999999999" y="-171.36431784107947"/>
+        </scene>
+        <!--Demo-->
+        <scene sceneID="AWh-nV-uQX">
+            <objects>
+                <tableViewController id="RrR-ja-gH0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="fYn-72-nlN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94892948870000005" green="0.94908481840000003" blue="0.94889634850000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="XWR-ua-N7o">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="157"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OpenSourceUI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVA-rH-sG3">
+                                    <rect key="frame" x="100" y="62" width="175" height="33"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                    <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="pVA-rH-sG3" firstAttribute="centerY" secondItem="XWR-ua-N7o" secondAttribute="centerY" id="5df-Ph-fsI"/>
+                                <constraint firstItem="pVA-rH-sG3" firstAttribute="centerX" secondItem="XWR-ua-N7o" secondAttribute="centerX" id="7rL-6O-GWI"/>
+                            </constraints>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="BOj-Go-ONN">
+                            <rect key="frame" x="0.0" y="277" width="375" height="164"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="NGD-uY-hLE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="vEh-Yk-3mJ" detailTextLabel="jcF-bz-J9i" style="IBUITableViewCellStyleSubtitle" id="SEd-d3-xnN">
+                                        <rect key="frame" x="0.0" y="157" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SEd-d3-xnN" id="Pxf-sF-lxU">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="单选框" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vEh-Yk-3mJ">
+                                                    <rect key="frame" x="15" y="13" width="52" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Single Check Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jcF-bz-J9i">
+                                                    <rect key="frame" x="15" y="33.5" width="98.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="push" id="Jdi-YN-7yG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="0d1-CD-m3c" detailTextLabel="PHs-Mp-0Ep" style="IBUITableViewCellStyleSubtitle" id="LH5-G5-wZ1">
+                                        <rect key="frame" x="0.0" y="217" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LH5-G5-wZ1" id="WAV-gh-cCG">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="复选框" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0d1-CD-m3c">
+                                                    <rect key="frame" x="15" y="13" width="52" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mutable Check Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PHs-Mp-0Ep">
+                                                    <rect key="frame" x="15" y="33.5" width="109.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Rzh-Fy-G3U" kind="push" id="0ws-2C-Tjd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Demo" id="Zte-RH-o6x"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYN-sD-HFY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914" y="124"/>
+        </scene>
+        <!--复选框-->
+        <scene sceneID="FW5-aM-uDn">
+            <objects>
+                <viewController id="Rzh-Fy-G3U" customClass="MutableCheckBoxViewControllerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GrE-pl-HYq"/>
+                        <viewControllerLayoutGuide type="bottom" id="e5a-7O-GxE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ncf-hi-hzd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAI-iP-5No" customClass="ZZCheckBoxButton">
+                                <rect key="frame" x="100.5" y="311.5" width="174" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Upp-Ub-NKm"/>
+                                </constraints>
+                                <state key="normal" title=" StoryBoard Test 01" image="but_select_nor.png">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="but_select_press.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-Ha-oS4" customClass="ZZCheckBoxButton">
+                                <rect key="frame" x="100" y="360.5" width="176" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6CC-Zc-pHi"/>
+                                </constraints>
+                                <state key="normal" title=" StoryBoard Test 02" image="but_select_nor.png">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="but_select_press.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xAI-iP-5No" firstAttribute="centerY" secondItem="Ncf-hi-hzd" secondAttribute="centerY" id="DVZ-PT-OJ7"/>
+                            <constraint firstItem="Whc-Ha-oS4" firstAttribute="leading" secondItem="xAI-iP-5No" secondAttribute="leading" id="Kt6-mR-oXd"/>
+                            <constraint firstItem="xAI-iP-5No" firstAttribute="centerX" secondItem="Ncf-hi-hzd" secondAttribute="centerX" id="Nea-sm-jua"/>
+                            <constraint firstItem="Whc-Ha-oS4" firstAttribute="top" secondItem="xAI-iP-5No" secondAttribute="bottom" constant="5" id="cP4-js-AL0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="复选框" id="f3G-Hv-WYf"/>
+                    <connections>
+                        <outletCollection property="checkBoxButtonArray" destination="xAI-iP-5No" id="UgT-sw-oQQ"/>
+                        <outletCollection property="checkBoxButtonArray" destination="Whc-Ha-oS4" id="4JI-Q2-FG9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yz2-bE-ZrZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="498"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="but_select_nor.png" width="15" height="15"/>
+        <image name="but_select_press.png" width="15" height="15"/>
+    </resources>
+</document>

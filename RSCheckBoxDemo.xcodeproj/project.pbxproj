@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F657BC1F27477000297AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BB1F27477000297AF4 /* main.m */; };
+		34F657BF1F27477000297AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BE1F27477000297AF4 /* AppDelegate.m */; };
+		34F657C21F27477000297AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657C11F27477000297AF4 /* ViewController.m */; };
+		34F657C51F27477000297AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C31F27477000297AF4 /* Main.storyboard */; };
+		34F657C71F27477000297AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C61F27477000297AF4 /* Assets.xcassets */; };
+		34F657CA1F27477000297AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C81F27477000297AF4 /* LaunchScreen.storyboard */; };
+		34F657D51F27477100297AF4 /* RSCheckBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */; };
+		34F657E01F27477100297AF4 /* RSCheckBoxDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */; };
+		34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657EE1F27478400297AF4 /* but_select_nor@2x.png */; };
+		34F657FC1F27478400297AF4 /* but_select_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657EF1F27478400297AF4 /* but_select_nor@3x.png */; };
+		34F657FD1F27478400297AF4 /* but_select_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657F01F27478400297AF4 /* but_select_press@2x.png */; };
+		34F657FE1F27478400297AF4 /* but_select_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657F11F27478400297AF4 /* but_select_press@3x.png */; };
+		34F657FF1F27478400297AF4 /* ZZCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F31F27478400297AF4 /* ZZCheckBox.m */; };
+		34F658001F27478400297AF4 /* ZZCheckBoxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */; };
+		34F658011F27478400297AF4 /* ZZMutableCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */; };
+		34F658021F27478400297AF4 /* ZZSingleCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */; };
+		34F658051F27486800297AF4 /* SingleCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */; };
+		34F658081F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F657D11F27477100297AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F657AF1F27477000297AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F657B61F27477000297AF4;
+			remoteInfo = RSCheckBoxDemo;
+		};
+		34F657DC1F27477100297AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F657AF1F27477000297AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F657B61F27477000297AF4;
+			remoteInfo = RSCheckBoxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34F657B71F27477000297AF4 /* RSCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F657BB1F27477000297AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F657BD1F27477000297AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34F657BE1F27477000297AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34F657C01F27477000297AF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34F657C11F27477000297AF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34F657C41F27477000297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F657C61F27477000297AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F657C91F27477000297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F657CB1F27477000297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F657D01F27477100297AF4 /* RSCheckBoxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxDemoTests.m; sourceTree = "<group>"; };
+		34F657D61F27477100297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F657DB1F27477100297AF4 /* RSCheckBoxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxDemoUITests.m; sourceTree = "<group>"; };
+		34F657E11F27477100297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F657EE1F27478400297AF4 /* but_select_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_nor@2x.png"; sourceTree = "<group>"; };
+		34F657EF1F27478400297AF4 /* but_select_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_nor@3x.png"; sourceTree = "<group>"; };
+		34F657F01F27478400297AF4 /* but_select_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_press@2x.png"; sourceTree = "<group>"; };
+		34F657F11F27478400297AF4 /* but_select_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_press@3x.png"; sourceTree = "<group>"; };
+		34F657F21F27478400297AF4 /* ZZCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBox.h; sourceTree = "<group>"; };
+		34F657F31F27478400297AF4 /* ZZCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckBox.m; sourceTree = "<group>"; };
+		34F657F41F27478400297AF4 /* ZZCheckBoxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBoxButton.h; sourceTree = "<group>"; };
+		34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckBoxButton.m; sourceTree = "<group>"; };
+		34F657F61F27478400297AF4 /* ZZCheckBoxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBoxHeader.h; sourceTree = "<group>"; };
+		34F657F71F27478400297AF4 /* ZZMutableCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMutableCheckBox.h; sourceTree = "<group>"; };
+		34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMutableCheckBox.m; sourceTree = "<group>"; };
+		34F657F91F27478400297AF4 /* ZZSingleCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSingleCheckBox.h; sourceTree = "<group>"; };
+		34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSingleCheckBox.m; sourceTree = "<group>"; };
+		34F658031F27486800297AF4 /* SingleCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCheckBoxViewController.h; sourceTree = "<group>"; };
+		34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCheckBoxViewController.m; sourceTree = "<group>"; };
+		34F658061F27488200297AF4 /* MutableCheckBoxViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableCheckBoxViewControllerViewController.h; sourceTree = "<group>"; };
+		34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableCheckBoxViewControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F657B41F27477000297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657CD1F27477100297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657D81F27477100297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F657AE1F27477000297AF4 = {
+			isa = PBXGroup;
+			children = (
+				34F657B91F27477000297AF4 /* RSCheckBoxDemo */,
+				34F657D31F27477100297AF4 /* RSCheckBoxDemoTests */,
+				34F657DE1F27477100297AF4 /* RSCheckBoxDemoUITests */,
+				34F657B81F27477000297AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F657B81F27477000297AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F657B71F27477000297AF4 /* RSCheckBoxDemo.app */,
+				34F657D01F27477100297AF4 /* RSCheckBoxDemoTests.xctest */,
+				34F657DB1F27477100297AF4 /* RSCheckBoxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F657B91F27477000297AF4 /* RSCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34F657ED1F27478400297AF4 /* ZZCheckBox */,
+				34F657BD1F27477000297AF4 /* AppDelegate.h */,
+				34F657BE1F27477000297AF4 /* AppDelegate.m */,
+				34F657C01F27477000297AF4 /* ViewController.h */,
+				34F657C11F27477000297AF4 /* ViewController.m */,
+				34F658031F27486800297AF4 /* SingleCheckBoxViewController.h */,
+				34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */,
+				34F658061F27488200297AF4 /* MutableCheckBoxViewControllerViewController.h */,
+				34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */,
+				34F657C31F27477000297AF4 /* Main.storyboard */,
+				34F657C61F27477000297AF4 /* Assets.xcassets */,
+				34F657C81F27477000297AF4 /* LaunchScreen.storyboard */,
+				34F657CB1F27477000297AF4 /* Info.plist */,
+				34F657BA1F27477000297AF4 /* Supporting Files */,
+			);
+			path = RSCheckBoxDemo;
+			sourceTree = "<group>";
+		};
+		34F657BA1F27477000297AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F657BB1F27477000297AF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F657D31F27477100297AF4 /* RSCheckBoxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */,
+				34F657D61F27477100297AF4 /* Info.plist */,
+			);
+			path = RSCheckBoxDemoTests;
+			sourceTree = "<group>";
+		};
+		34F657DE1F27477100297AF4 /* RSCheckBoxDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */,
+				34F657E11F27477100297AF4 /* Info.plist */,
+			);
+			path = RSCheckBoxDemoUITests;
+			sourceTree = "<group>";
+		};
+		34F657ED1F27478400297AF4 /* ZZCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				34F657EE1F27478400297AF4 /* but_select_nor@2x.png */,
+				34F657EF1F27478400297AF4 /* but_select_nor@3x.png */,
+				34F657F01F27478400297AF4 /* but_select_press@2x.png */,
+				34F657F11F27478400297AF4 /* but_select_press@3x.png */,
+				34F657F21F27478400297AF4 /* ZZCheckBox.h */,
+				34F657F31F27478400297AF4 /* ZZCheckBox.m */,
+				34F657F41F27478400297AF4 /* ZZCheckBoxButton.h */,
+				34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */,
+				34F657F61F27478400297AF4 /* ZZCheckBoxHeader.h */,
+				34F657F71F27478400297AF4 /* ZZMutableCheckBox.h */,
+				34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */,
+				34F657F91F27478400297AF4 /* ZZSingleCheckBox.h */,
+				34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */,
+			);
+			path = ZZCheckBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F657B61F27477000297AF4 /* RSCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F657E41F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemo" */;
+			buildPhases = (
+				34F657B31F27477000297AF4 /* Sources */,
+				34F657B41F27477000297AF4 /* Frameworks */,
+				34F657B51F27477000297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSCheckBoxDemo;
+			productName = RSCheckBoxDemo;
+			productReference = 34F657B71F27477000297AF4 /* RSCheckBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F657CF1F27477100297AF4 /* RSCheckBoxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F657E71F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoTests" */;
+			buildPhases = (
+				34F657CC1F27477100297AF4 /* Sources */,
+				34F657CD1F27477100297AF4 /* Frameworks */,
+				34F657CE1F27477100297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F657D21F27477100297AF4 /* PBXTargetDependency */,
+			);
+			name = RSCheckBoxDemoTests;
+			productName = RSCheckBoxDemoTests;
+			productReference = 34F657D01F27477100297AF4 /* RSCheckBoxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F657DA1F27477100297AF4 /* RSCheckBoxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F657EA1F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoUITests" */;
+			buildPhases = (
+				34F657D71F27477100297AF4 /* Sources */,
+				34F657D81F27477100297AF4 /* Frameworks */,
+				34F657D91F27477100297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F657DD1F27477100297AF4 /* PBXTargetDependency */,
+			);
+			name = RSCheckBoxDemoUITests;
+			productName = RSCheckBoxDemoUITests;
+			productReference = 34F657DB1F27477100297AF4 /* RSCheckBoxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F657AF1F27477000297AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34F657B61F27477000297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34F657CF1F27477100297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F657B61F27477000297AF4;
+					};
+					34F657DA1F27477100297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F657B61F27477000297AF4;
+					};
+				};
+			};
+			buildConfigurationList = 34F657B21F27477000297AF4 /* Build configuration list for PBXProject "RSCheckBoxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F657AE1F27477000297AF4;
+			productRefGroup = 34F657B81F27477000297AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F657B61F27477000297AF4 /* RSCheckBoxDemo */,
+				34F657CF1F27477100297AF4 /* RSCheckBoxDemoTests */,
+				34F657DA1F27477100297AF4 /* RSCheckBoxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F657B51F27477000297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F657FE1F27478400297AF4 /* but_select_press@3x.png in Resources */,
+				34F657FD1F27478400297AF4 /* but_select_press@2x.png in Resources */,
+				34F657CA1F27477000297AF4 /* LaunchScreen.storyboard in Resources */,
+				34F657FC1F27478400297AF4 /* but_select_nor@3x.png in Resources */,
+				34F657C71F27477000297AF4 /* Assets.xcassets in Resources */,
+				34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */,
+				34F657C51F27477000297AF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657CE1F27477100297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657D91F27477100297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F657B31F27477000297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F658001F27478400297AF4 /* ZZCheckBoxButton.m in Sources */,
+				34F658081F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m in Sources */,
+				34F658051F27486800297AF4 /* SingleCheckBoxViewController.m in Sources */,
+				34F658011F27478400297AF4 /* ZZMutableCheckBox.m in Sources */,
+				34F657C21F27477000297AF4 /* ViewController.m in Sources */,
+				34F657BF1F27477000297AF4 /* AppDelegate.m in Sources */,
+				34F657FF1F27478400297AF4 /* ZZCheckBox.m in Sources */,
+				34F658021F27478400297AF4 /* ZZSingleCheckBox.m in Sources */,
+				34F657BC1F27477000297AF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657CC1F27477100297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F657D51F27477100297AF4 /* RSCheckBoxDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F657D71F27477100297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F657E01F27477100297AF4 /* RSCheckBoxDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F657D21F27477100297AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F657B61F27477000297AF4 /* RSCheckBoxDemo */;
+			targetProxy = 34F657D11F27477100297AF4 /* PBXContainerItemProxy */;
+		};
+		34F657DD1F27477100297AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F657B61F27477000297AF4 /* RSCheckBoxDemo */;
+			targetProxy = 34F657DC1F27477100297AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F657C31F27477000297AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F657C41F27477000297AF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F657C81F27477000297AF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F657C91F27477000297AF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F657E21F27477100297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F657E31F27477100297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F657E51F27477100297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSCheckBoxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34F657E61F27477100297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSCheckBoxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34F657E81F27477100297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCheckBoxDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCheckBoxDemo.app/RSCheckBoxDemo";
+			};
+			name = Debug;
+		};
+		34F657E91F27477100297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCheckBoxDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCheckBoxDemo.app/RSCheckBoxDemo";
+			};
+			name = Release;
+		};
+		34F657EB1F27477100297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCheckBoxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCheckBoxDemo;
+			};
+			name = Debug;
+		};
+		34F657EC1F27477100297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCheckBoxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCheckBoxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCheckBoxDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F657B21F27477000297AF4 /* Build configuration list for PBXProject "RSCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F657E21F27477100297AF4 /* Debug */,
+				34F657E31F27477100297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F657E41F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F657E51F27477100297AF4 /* Debug */,
+				34F657E61F27477100297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F657E71F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F657E81F27477100297AF4 /* Debug */,
+				34F657E91F27477100297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F657EA1F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F657EB1F27477100297AF4 /* Debug */,
+				34F657EC1F27477100297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F657AF1F27477000297AF4 /* Project object */;
+}
