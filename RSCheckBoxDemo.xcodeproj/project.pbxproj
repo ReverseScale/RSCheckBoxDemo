@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345133002089931C001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345132FE2089931C001D186E /* LaunchScreen.storyboard */; };
+		345133012089931C001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345132FF2089931C001D186E /* Default.png */; };
 		34F657BC1F27477000297AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BB1F27477000297AF4 /* main.m */; };
 		34F657BF1F27477000297AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BE1F27477000297AF4 /* AppDelegate.m */; };
 		34F657C21F27477000297AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657C11F27477000297AF4 /* ViewController.m */; };
 		34F657C51F27477000297AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C31F27477000297AF4 /* Main.storyboard */; };
 		34F657C71F27477000297AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C61F27477000297AF4 /* Assets.xcassets */; };
-		34F657CA1F27477000297AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C81F27477000297AF4 /* LaunchScreen.storyboard */; };
 		34F657D51F27477100297AF4 /* RSCheckBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */; };
 		34F657E01F27477100297AF4 /* RSCheckBoxDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */; };
 		34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657EE1F27478400297AF4 /* but_select_nor@2x.png */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345132FE2089931C001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345132FF2089931C001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34F657B71F27477000297AF4 /* RSCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F657BB1F27477000297AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34F657BD1F27477000297AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 		34F657C11F27477000297AF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34F657C41F27477000297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F657C61F27477000297AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34F657C91F27477000297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F657CB1F27477000297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F657D01F27477100297AF4 /* RSCheckBoxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxDemoTests.m; sourceTree = "<group>"; };
@@ -139,7 +141,8 @@
 				34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */,
 				34F657C31F27477000297AF4 /* Main.storyboard */,
 				34F657C61F27477000297AF4 /* Assets.xcassets */,
-				34F657C81F27477000297AF4 /* LaunchScreen.storyboard */,
+				345132FE2089931C001D186E /* LaunchScreen.storyboard */,
+				345132FF2089931C001D186E /* Default.png */,
 				34F657CB1F27477000297AF4 /* Info.plist */,
 				34F657BA1F27477000297AF4 /* Supporting Files */,
 			);
@@ -301,9 +304,10 @@
 			files = (
 				34F657FE1F27478400297AF4 /* but_select_press@3x.png in Resources */,
 				34F657FD1F27478400297AF4 /* but_select_press@2x.png in Resources */,
-				34F657CA1F27477000297AF4 /* LaunchScreen.storyboard in Resources */,
 				34F657FC1F27478400297AF4 /* but_select_nor@3x.png in Resources */,
+				345133012089931C001D186E /* Default.png in Resources */,
 				34F657C71F27477000297AF4 /* Assets.xcassets in Resources */,
+				345133002089931C001D186E /* LaunchScreen.storyboard in Resources */,
 				34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */,
 				34F657C51F27477000297AF4 /* Main.storyboard in Resources */,
 			);
@@ -380,14 +384,6 @@
 				34F657C41F27477000297AF4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34F657C81F27477000297AF4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34F657C91F27477000297AF4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -487,7 +483,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSCheckBoxDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,7 +495,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = RSCheckBoxDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -574,6 +568,7 @@
 				34F657E61F27477100297AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34F657E71F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +577,7 @@
 				34F657E91F27477100297AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34F657EA1F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +586,7 @@
 				34F657EC1F27477100297AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
