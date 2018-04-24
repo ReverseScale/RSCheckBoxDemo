@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zA4-fD-cly">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zA4-fD-cly">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="zA4-fD-cly" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dje-jT-LLd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWm-Df-eE9" customClass="ZZCheckBoxButton">
-                                <rect key="frame" x="100.5" y="360.5" width="176" height="44"/>
+                                <rect key="frame" x="101" y="360.5" width="176" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ZhC-0h-KYE"/>
                                 </constraints>
@@ -48,7 +48,7 @@
                                 <state key="selected" image="but_select_press.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K60-hT-bb8" customClass="ZZCheckBoxButton">
-                                <rect key="frame" x="100.5" y="311.5" width="174" height="44"/>
+                                <rect key="frame" x="101" y="311.5" width="173" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="AGo-jz-RhJ"/>
                                 </constraints>
@@ -69,8 +69,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="单选框" id="ZFd-HN-8vr"/>
                     <connections>
-                        <outletCollection property="checkBoxButtonArray" destination="K60-hT-bb8" id="k7K-Ml-PXm"/>
-                        <outletCollection property="checkBoxButtonArray" destination="GWm-Df-eE9" id="cDo-tT-oxB"/>
+                        <outletCollection property="checkBoxButtonArray" destination="K60-hT-bb8" id="QTQ-Ht-ALA"/>
+                        <outletCollection property="checkBoxButtonArray" destination="GWm-Df-eE9" id="jPu-c2-MQp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -90,7 +90,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OpenSourceUI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVA-rH-sG3">
-                                    <rect key="frame" x="100" y="62" width="175" height="33"/>
+                                    <rect key="frame" x="102" y="62" width="171.5" height="33"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                     <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -114,18 +114,18 @@
                                         <rect key="frame" x="0.0" y="157" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SEd-d3-xnN" id="Pxf-sF-lxU">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="单选框" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vEh-Yk-3mJ">
-                                                    <rect key="frame" x="15" y="13" width="52" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="52" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Single Check Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jcF-bz-J9i">
-                                                    <rect key="frame" x="15" y="33.5" width="98.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="33.5" width="98.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -141,18 +141,18 @@
                                         <rect key="frame" x="0.0" y="217" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LH5-G5-wZ1" id="WAV-gh-cCG">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="复选框" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0d1-CD-m3c">
-                                                    <rect key="frame" x="15" y="13" width="52" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="52" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mutable Check Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PHs-Mp-0Ep">
-                                                    <rect key="frame" x="15" y="33.5" width="109.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="33.5" width="109.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -187,7 +187,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAI-iP-5No" customClass="ZZCheckBoxButton">
-                                <rect key="frame" x="100.5" y="311.5" width="174" height="44"/>
+                                <rect key="frame" x="101" y="311.5" width="173" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Upp-Ub-NKm"/>
                                 </constraints>
@@ -197,7 +197,7 @@
                                 <state key="selected" image="but_select_press.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-Ha-oS4" customClass="ZZCheckBoxButton">
-                                <rect key="frame" x="100" y="360.5" width="176" height="44"/>
+                                <rect key="frame" x="100.5" y="360.5" width="176" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="6CC-Zc-pHi"/>
                                 </constraints>

@@ -1,0 +1,12 @@
+PODS:
+  - RSCheckBoxLib (0.2.0)
+
+DEPENDENCIES:
+  - RSCheckBoxLib (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  RSCheckBoxLib: 17f44172ef6a388599be03e1d5deddbdd37f02f3
+
+PODFILE CHECKSUM: e3b71fbfea82669e87ecca6c3955c059228ec574
+
+COCOAPODS: 1.4.0

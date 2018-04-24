@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1DB304963106FC7BA95F90 /* libPods-RSCheckBoxDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF38E8C1635386F468F2B0C /* libPods-RSCheckBoxDemoTests.a */; };
 		345133002089931C001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345132FE2089931C001D186E /* LaunchScreen.storyboard */; };
 		345133012089931C001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345132FF2089931C001D186E /* Default.png */; };
 		34F657BC1F27477000297AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BB1F27477000297AF4 /* main.m */; };
 		34F657BF1F27477000297AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657BE1F27477000297AF4 /* AppDelegate.m */; };
-		34F657C21F27477000297AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657C11F27477000297AF4 /* ViewController.m */; };
 		34F657C51F27477000297AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C31F27477000297AF4 /* Main.storyboard */; };
 		34F657C71F27477000297AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F657C61F27477000297AF4 /* Assets.xcassets */; };
 		34F657D51F27477100297AF4 /* RSCheckBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657D41F27477100297AF4 /* RSCheckBoxDemoTests.m */; };
 		34F657E01F27477100297AF4 /* RSCheckBoxDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */; };
-		34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657EE1F27478400297AF4 /* but_select_nor@2x.png */; };
-		34F657FC1F27478400297AF4 /* but_select_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657EF1F27478400297AF4 /* but_select_nor@3x.png */; };
-		34F657FD1F27478400297AF4 /* but_select_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657F01F27478400297AF4 /* but_select_press@2x.png */; };
-		34F657FE1F27478400297AF4 /* but_select_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F657F11F27478400297AF4 /* but_select_press@3x.png */; };
-		34F657FF1F27478400297AF4 /* ZZCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F31F27478400297AF4 /* ZZCheckBox.m */; };
-		34F658001F27478400297AF4 /* ZZCheckBoxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */; };
-		34F658011F27478400297AF4 /* ZZMutableCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */; };
-		34F658021F27478400297AF4 /* ZZSingleCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */; };
 		34F658051F27486800297AF4 /* SingleCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */; };
 		34F658081F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */; };
+		6FA1419A331A5F30B595A306 /* libPods-RSCheckBoxDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34BDA216EE1DB5CE97863D6 /* libPods-RSCheckBoxDemoUITests.a */; };
+		878366F88CE660321ADA7179 /* libPods-RSCheckBoxDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720F8FED5B435BB16C4CFA2E /* libPods-RSCheckBoxDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FFEDC6FD1445081C2C32A70 /* Pods-RSCheckBoxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemo/Pods-RSCheckBoxDemo.release.xcconfig"; sourceTree = "<group>"; };
 		345132FE2089931C001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345132FF2089931C001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34F657B71F27477000297AF4 /* RSCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F657BB1F27477000297AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34F657BD1F27477000297AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34F657BE1F27477000297AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34F657C01F27477000297AF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34F657C11F27477000297AF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34F657C41F27477000297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F657C61F27477000297AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F657CB1F27477000297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,23 +56,18 @@
 		34F657DB1F27477100297AF4 /* RSCheckBoxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F657DF1F27477100297AF4 /* RSCheckBoxDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxDemoUITests.m; sourceTree = "<group>"; };
 		34F657E11F27477100297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34F657EE1F27478400297AF4 /* but_select_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_nor@2x.png"; sourceTree = "<group>"; };
-		34F657EF1F27478400297AF4 /* but_select_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_nor@3x.png"; sourceTree = "<group>"; };
-		34F657F01F27478400297AF4 /* but_select_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_press@2x.png"; sourceTree = "<group>"; };
-		34F657F11F27478400297AF4 /* but_select_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "but_select_press@3x.png"; sourceTree = "<group>"; };
-		34F657F21F27478400297AF4 /* ZZCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBox.h; sourceTree = "<group>"; };
-		34F657F31F27478400297AF4 /* ZZCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckBox.m; sourceTree = "<group>"; };
-		34F657F41F27478400297AF4 /* ZZCheckBoxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBoxButton.h; sourceTree = "<group>"; };
-		34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCheckBoxButton.m; sourceTree = "<group>"; };
-		34F657F61F27478400297AF4 /* ZZCheckBoxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCheckBoxHeader.h; sourceTree = "<group>"; };
-		34F657F71F27478400297AF4 /* ZZMutableCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMutableCheckBox.h; sourceTree = "<group>"; };
-		34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMutableCheckBox.m; sourceTree = "<group>"; };
-		34F657F91F27478400297AF4 /* ZZSingleCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSingleCheckBox.h; sourceTree = "<group>"; };
-		34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSingleCheckBox.m; sourceTree = "<group>"; };
 		34F658031F27486800297AF4 /* SingleCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCheckBoxViewController.h; sourceTree = "<group>"; };
 		34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCheckBoxViewController.m; sourceTree = "<group>"; };
 		34F658061F27488200297AF4 /* MutableCheckBoxViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableCheckBoxViewControllerViewController.h; sourceTree = "<group>"; };
 		34F658071F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableCheckBoxViewControllerViewController.m; sourceTree = "<group>"; };
+		720F8FED5B435BB16C4CFA2E /* libPods-RSCheckBoxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCheckBoxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A251D3C46AE5DEFBCAF863 /* Pods-RSCheckBoxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemoTests/Pods-RSCheckBoxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EF38E8C1635386F468F2B0C /* libPods-RSCheckBoxDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCheckBoxDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCD2EDA575253DEE3AB7B6F /* Pods-RSCheckBoxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemoTests/Pods-RSCheckBoxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F2284D6F441F3AF4010438 /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemoUITests/Pods-RSCheckBoxDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FDEF083B4961929C9B337B /* Pods-RSCheckBoxDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemoUITests/Pods-RSCheckBoxDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E34BDA216EE1DB5CE97863D6 /* libPods-RSCheckBoxDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCheckBoxDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E740182552FDDE8BF711C443 /* Pods-RSCheckBoxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCheckBoxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCheckBoxDemo/Pods-RSCheckBoxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878366F88CE660321ADA7179 /* libPods-RSCheckBoxDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1DB304963106FC7BA95F90 /* libPods-RSCheckBoxDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA1419A331A5F30B595A306 /* libPods-RSCheckBoxDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +105,8 @@
 				34F657D31F27477100297AF4 /* RSCheckBoxDemoTests */,
 				34F657DE1F27477100297AF4 /* RSCheckBoxDemoUITests */,
 				34F657B81F27477000297AF4 /* Products */,
+				B9096608DEE06D5A0A1750D1 /* Pods */,
+				5EDFF73D396F09F75116993E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,11 +123,8 @@
 		34F657B91F27477000297AF4 /* RSCheckBoxDemo */ = {
 			isa = PBXGroup;
 			children = (
-				34F657ED1F27478400297AF4 /* ZZCheckBox */,
 				34F657BD1F27477000297AF4 /* AppDelegate.h */,
 				34F657BE1F27477000297AF4 /* AppDelegate.m */,
-				34F657C01F27477000297AF4 /* ViewController.h */,
-				34F657C11F27477000297AF4 /* ViewController.m */,
 				34F658031F27486800297AF4 /* SingleCheckBoxViewController.h */,
 				34F658041F27486800297AF4 /* SingleCheckBoxViewController.m */,
 				34F658061F27488200297AF4 /* MutableCheckBoxViewControllerViewController.h */,
@@ -175,24 +165,27 @@
 			path = RSCheckBoxDemoUITests;
 			sourceTree = "<group>";
 		};
-		34F657ED1F27478400297AF4 /* ZZCheckBox */ = {
+		5EDFF73D396F09F75116993E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34F657EE1F27478400297AF4 /* but_select_nor@2x.png */,
-				34F657EF1F27478400297AF4 /* but_select_nor@3x.png */,
-				34F657F01F27478400297AF4 /* but_select_press@2x.png */,
-				34F657F11F27478400297AF4 /* but_select_press@3x.png */,
-				34F657F21F27478400297AF4 /* ZZCheckBox.h */,
-				34F657F31F27478400297AF4 /* ZZCheckBox.m */,
-				34F657F41F27478400297AF4 /* ZZCheckBoxButton.h */,
-				34F657F51F27478400297AF4 /* ZZCheckBoxButton.m */,
-				34F657F61F27478400297AF4 /* ZZCheckBoxHeader.h */,
-				34F657F71F27478400297AF4 /* ZZMutableCheckBox.h */,
-				34F657F81F27478400297AF4 /* ZZMutableCheckBox.m */,
-				34F657F91F27478400297AF4 /* ZZSingleCheckBox.h */,
-				34F657FA1F27478400297AF4 /* ZZSingleCheckBox.m */,
+				720F8FED5B435BB16C4CFA2E /* libPods-RSCheckBoxDemo.a */,
+				9EF38E8C1635386F468F2B0C /* libPods-RSCheckBoxDemoTests.a */,
+				E34BDA216EE1DB5CE97863D6 /* libPods-RSCheckBoxDemoUITests.a */,
 			);
-			path = ZZCheckBox;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9096608DEE06D5A0A1750D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E740182552FDDE8BF711C443 /* Pods-RSCheckBoxDemo.debug.xcconfig */,
+				2FFEDC6FD1445081C2C32A70 /* Pods-RSCheckBoxDemo.release.xcconfig */,
+				CDCD2EDA575253DEE3AB7B6F /* Pods-RSCheckBoxDemoTests.debug.xcconfig */,
+				99A251D3C46AE5DEFBCAF863 /* Pods-RSCheckBoxDemoTests.release.xcconfig */,
+				D0F2284D6F441F3AF4010438 /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */,
+				D1FDEF083B4961929C9B337B /* Pods-RSCheckBoxDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F657E41F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemo" */;
 			buildPhases = (
+				8111BCD31516392395941380 /* [CP] Check Pods Manifest.lock */,
 				34F657B31F27477000297AF4 /* Sources */,
 				34F657B41F27477000297AF4 /* Frameworks */,
 				34F657B51F27477000297AF4 /* Resources */,
+				7610A85045719910A14A2F96 /* [CP] Embed Pods Frameworks */,
+				8C56A0193902268B73C1984E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F657E71F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoTests" */;
 			buildPhases = (
+				EEE63CA4E1BB6B1E8DAC1000 /* [CP] Check Pods Manifest.lock */,
 				34F657CC1F27477100297AF4 /* Sources */,
 				34F657CD1F27477100297AF4 /* Frameworks */,
 				34F657CE1F27477100297AF4 /* Resources */,
+				6196DF06FA543AE0A8899EE1 /* [CP] Embed Pods Frameworks */,
+				1C8E5449330D54A010A47908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F657EA1F27477100297AF4 /* Build configuration list for PBXNativeTarget "RSCheckBoxDemoUITests" */;
 			buildPhases = (
+				CC8EE0ECFDF7AA40A578D8AA /* [CP] Check Pods Manifest.lock */,
 				34F657D71F27477100297AF4 /* Sources */,
 				34F657D81F27477100297AF4 /* Frameworks */,
 				34F657D91F27477100297AF4 /* Resources */,
+				4E30206B8FB86F31016986BE /* [CP] Embed Pods Frameworks */,
+				AEDC01B843B3B3F8BD67552F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,13 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F657FE1F27478400297AF4 /* but_select_press@3x.png in Resources */,
-				34F657FD1F27478400297AF4 /* but_select_press@2x.png in Resources */,
-				34F657FC1F27478400297AF4 /* but_select_nor@3x.png in Resources */,
 				345133012089931C001D186E /* Default.png in Resources */,
 				34F657C71F27477000297AF4 /* Assets.xcassets in Resources */,
 				345133002089931C001D186E /* LaunchScreen.storyboard in Resources */,
-				34F657FB1F27478400297AF4 /* but_select_nor@2x.png in Resources */,
 				34F657C51F27477000297AF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,19 +327,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C8E5449330D54A010A47908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemoTests/Pods-RSCheckBoxDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E30206B8FB86F31016986BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemoUITests/Pods-RSCheckBoxDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6196DF06FA543AE0A8899EE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemoTests/Pods-RSCheckBoxDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7610A85045719910A14A2F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemo/Pods-RSCheckBoxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8111BCD31516392395941380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCheckBoxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C56A0193902268B73C1984E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemo/Pods-RSCheckBoxDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RSCheckBoxLib/RSCheckBoxLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSCheckBoxLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemo/Pods-RSCheckBoxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDC01B843B3B3F8BD67552F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCheckBoxDemoUITests/Pods-RSCheckBoxDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8EE0ECFDF7AA40A578D8AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCheckBoxDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE63CA4E1BB6B1E8DAC1000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCheckBoxDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34F657B31F27477000297AF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F658001F27478400297AF4 /* ZZCheckBoxButton.m in Sources */,
 				34F658081F27488200297AF4 /* MutableCheckBoxViewControllerViewController.m in Sources */,
 				34F658051F27486800297AF4 /* SingleCheckBoxViewController.m in Sources */,
-				34F658011F27478400297AF4 /* ZZMutableCheckBox.m in Sources */,
-				34F657C21F27477000297AF4 /* ViewController.m in Sources */,
 				34F657BF1F27477000297AF4 /* AppDelegate.m in Sources */,
-				34F657FF1F27478400297AF4 /* ZZCheckBox.m in Sources */,
-				34F658021F27478400297AF4 /* ZZSingleCheckBox.m in Sources */,
 				34F657BC1F27477000297AF4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +624,7 @@
 		};
 		34F657E51F27477100297AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E740182552FDDE8BF711C443 /* Pods-RSCheckBoxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -493,6 +637,7 @@
 		};
 		34F657E61F27477100297AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFEDC6FD1445081C2C32A70 /* Pods-RSCheckBoxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -505,6 +650,7 @@
 		};
 		34F657E81F27477100297AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCD2EDA575253DEE3AB7B6F /* Pods-RSCheckBoxDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSCheckBoxDemoTests/Info.plist;
@@ -517,6 +663,7 @@
 		};
 		34F657E91F27477100297AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A251D3C46AE5DEFBCAF863 /* Pods-RSCheckBoxDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSCheckBoxDemoTests/Info.plist;
@@ -529,6 +676,7 @@
 		};
 		34F657EB1F27477100297AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F2284D6F441F3AF4010438 /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSCheckBoxDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -540,6 +688,7 @@
 		};
 		34F657EC1F27477100297AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FDEF083B4961929C9B337B /* Pods-RSCheckBoxDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSCheckBoxDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

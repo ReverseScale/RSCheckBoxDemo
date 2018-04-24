@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8783F898E8433D5111E4AD2EAF3623 /* but_select_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A3319A466D74F8107DA08C4F76899D /* but_select_press@3x.png */; };
+		1A836CCED5F511BA9E54C60112ABAE48 /* ZZSingleCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C44DF0972AEBA8CFD60809A919FA306A /* ZZSingleCheckBox.m */; };
+		20104944E9F550EE71B8AACD707AD79E /* ZZSingleCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = FC332BD17FD6BCFD587CCA0E80556B68 /* ZZSingleCheckBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		547FA15942C8F5DA03C85121AE21F0A6 /* ZZCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4506BE3ABD10800741FD29BD44A82CFF /* ZZCheckBox.m */; };
+		54B14B8FBCEDE5D10C8B90D383266E2D /* Pods-RSCheckBoxDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F43839C34645CA2CDF499B04A11895 /* Pods-RSCheckBoxDemoUITests-dummy.m */; };
+		5D1C0ED3B38DC7273EB4EB81B0DE3F7F /* but_select_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D18B808B8D61D7FD617E985DF9F1F15 /* but_select_nor@2x.png */; };
+		5E7DBA999906053088396388A193C0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6DA05205583E83F36CC9AFE145D67D07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6EAEB2DECA1AC4FBD15AF89D38DB29E2 /* ZZMutableCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3609F4DFB28C4789BA6583540C4A0259 /* ZZMutableCheckBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B2366EC4126A0E406BB040632D2C5C1 /* Pods-RSCheckBoxDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93610D82F66F1930F331C4607D6894E8 /* Pods-RSCheckBoxDemo-dummy.m */; };
+		7FE049B50F98CB4964147D25B17BCC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8695C5E6E5A520C8BA79448AC3DB572D /* ZZCheckBoxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CEC30BBFC851BF9A7593C09A5407F /* ZZCheckBoxButton.m */; };
+		8DE213BD38E5434F8FE4A8BA4F319479 /* ZZMutableCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B367CEC553DC5D5AE3D2C7700E39EE5E /* ZZMutableCheckBox.m */; };
+		954AB5A98CF9023C5993557CE7D50D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A225CE4A64C3CCC49E2226547F8468D6 /* but_select_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C61F112C35F4293A503E7DCBD072D01F /* but_select_press@2x.png */; };
+		A52E8D4850FAC600718CB4D4E3895B50 /* ZZCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C54E46C14BD27A46CE5F503A765388FB /* ZZCheckBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC3DA32FB24E3BB7A51197FBD46F0574 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7ADD3B025573132EB09945A2CF224 /* ReplaceMe.m */; };
+		AD6135506EC08AF0914FACCE9DA94EE5 /* RSCheckBoxLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CE90736FF23E6031791C6EB2694D2 /* RSCheckBoxLib-dummy.m */; };
+		C0CEBF4273AD6729E21DB51A837A0564 /* Pods-RSCheckBoxDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 374847449FD94AFC8DE93EA1242E8775 /* Pods-RSCheckBoxDemoTests-dummy.m */; };
+		D3BA2BC7A37620B0150504EED70E4E1A /* ZZCheckBoxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2310CE3C7FE65B1C95690F3791C69427 /* ZZCheckBoxHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6DEAC97576330E94447F95FD7837AC0 /* ZZCheckBoxButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EB44D131B2265A43B9F529A4C5508876 /* ZZCheckBoxButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F609C003301918C5054F6111648E0FB4 /* but_select_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76DCAD65CFC4E77B19A2431F8B1F2C3A /* but_select_nor@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		271164D5300E6DBFD95C7B0FD0500532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C667ED6FC735BB1688DC0778BD793712;
+			remoteInfo = RSCheckBoxLib;
+		};
+		F88BEB89A1ADF5B1538114149846EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D2DED9AFAA869B36DD005456A031E7;
+			remoteInfo = "RSCheckBoxLib-RSCheckBoxLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D58CC770760CCBA182B94A79AEDC6A /* libRSCheckBoxLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRSCheckBoxLib.a; path = libRSCheckBoxLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01352AF5BB10242A467583EB8C8AE85A /* Pods-RSCheckBoxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		113FB55041C039B5C57B7F067FE6B243 /* Pods-RSCheckBoxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		13F43839C34645CA2CDF499B04A11895 /* Pods-RSCheckBoxDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSCheckBoxDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		178355BF95DB4FB57AC4F6FF34BBB1CB /* Pods-RSCheckBoxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1FA7ADD3B025573132EB09945A2CF224 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RSCheckBoxLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2310CE3C7FE65B1C95690F3791C69427 /* ZZCheckBoxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCheckBoxHeader.h; path = RSCheckBoxLib/Classes/ZZCheckBoxHeader.h; sourceTree = "<group>"; };
+		2FEFA80CAB07E16029538BFF2A0144A8 /* libPods-RSCheckBoxDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RSCheckBoxDemoTests.a"; path = "libPods-RSCheckBoxDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31ACBCEA269EF7953BE8939697E3E8B4 /* Pods-RSCheckBoxDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSCheckBoxDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3609F4DFB28C4789BA6583540C4A0259 /* ZZMutableCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZMutableCheckBox.h; path = RSCheckBoxLib/Classes/ZZMutableCheckBox.h; sourceTree = "<group>"; };
+		374847449FD94AFC8DE93EA1242E8775 /* Pods-RSCheckBoxDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSCheckBoxDemoTests-dummy.m"; sourceTree = "<group>"; };
+		3B8CAD0739FD3985A49C922B348CF73F /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D18B808B8D61D7FD617E985DF9F1F15 /* but_select_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "but_select_nor@2x.png"; path = "RSCheckBoxLib/Assets/but_select_nor@2x.png"; sourceTree = "<group>"; };
+		4506BE3ABD10800741FD29BD44A82CFF /* ZZCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZCheckBox.m; path = RSCheckBoxLib/Classes/ZZCheckBox.m; sourceTree = "<group>"; };
+		518B9E02BE6ED4FF3865DAF48DA95A26 /* Pods-RSCheckBoxDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		564CE90736FF23E6031791C6EB2694D2 /* RSCheckBoxLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSCheckBoxLib-dummy.m"; sourceTree = "<group>"; };
+		5A36A9D16588B948E92D50B9E9E45A73 /* libPods-RSCheckBoxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RSCheckBoxDemo.a"; path = "libPods-RSCheckBoxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67A3319A466D74F8107DA08C4F76899D /* but_select_press@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "but_select_press@3x.png"; path = "RSCheckBoxLib/Assets/but_select_press@3x.png"; sourceTree = "<group>"; };
+		69829C4B0369741B14994EFE85C6E126 /* Pods-RSCheckBoxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		76DCAD65CFC4E77B19A2431F8B1F2C3A /* but_select_nor@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "but_select_nor@3x.png"; path = "RSCheckBoxLib/Assets/but_select_nor@3x.png"; sourceTree = "<group>"; };
+		8194C51D6733B0B9FA38EE5C47BFF05C /* Pods-RSCheckBoxDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSCheckBoxDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		833C59A290FA52F0D101CA504CF86321 /* Pods-RSCheckBoxDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSCheckBoxDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		86E54C509539EB6A342B120673305355 /* RSCheckBoxLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RSCheckBoxLib.bundle; path = "RSCheckBoxLib-RSCheckBoxLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ADEA2B969FC59233EA29CF9907516A /* Pods-RSCheckBoxDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSCheckBoxDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90EC655C7BA669BD83E1C4A25CEB49F2 /* Pods-RSCheckBoxDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemoTests-resources.sh"; sourceTree = "<group>"; };
+		93610D82F66F1930F331C4607D6894E8 /* Pods-RSCheckBoxDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSCheckBoxDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972D4946464FE84C6BE162AD9FC43E61 /* Pods-RSCheckBoxDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		9E77FD57B2B94BBB4316531707757B58 /* ResourceBundle-RSCheckBoxLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RSCheckBoxLib-Info.plist"; sourceTree = "<group>"; };
+		A909F5592E27001C62235D9B4968C5D3 /* Pods-RSCheckBoxDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		B1C5CB9049FD4E37F73F8FF79EEA8809 /* Pods-RSCheckBoxDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemo-resources.sh"; sourceTree = "<group>"; };
+		B367CEC553DC5D5AE3D2C7700E39EE5E /* ZZMutableCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZMutableCheckBox.m; path = RSCheckBoxLib/Classes/ZZMutableCheckBox.m; sourceTree = "<group>"; };
+		C44DF0972AEBA8CFD60809A919FA306A /* ZZSingleCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZSingleCheckBox.m; path = RSCheckBoxLib/Classes/ZZSingleCheckBox.m; sourceTree = "<group>"; };
+		C45C46BAAE8E34A1D7E31ACE915B5EEC /* Pods-RSCheckBoxDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSCheckBoxDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C54E46C14BD27A46CE5F503A765388FB /* ZZCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCheckBox.h; path = RSCheckBoxLib/Classes/ZZCheckBox.h; sourceTree = "<group>"; };
+		C61F112C35F4293A503E7DCBD072D01F /* but_select_press@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "but_select_press@2x.png"; path = "RSCheckBoxLib/Assets/but_select_press@2x.png"; sourceTree = "<group>"; };
+		CE5CEC30BBFC851BF9A7593C09A5407F /* ZZCheckBoxButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZCheckBoxButton.m; path = RSCheckBoxLib/Classes/ZZCheckBoxButton.m; sourceTree = "<group>"; };
+		D2C5669D3AF06702713CF7AF9D824A1A /* Pods-RSCheckBoxDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSCheckBoxDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSCheckBoxLib.xcconfig; sourceTree = "<group>"; };
+		D770C29AE444C872BA9F48D6063BA00B /* RSCheckBoxLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSCheckBoxLib-prefix.pch"; sourceTree = "<group>"; };
+		DC1C4E8AB63619B2CE6214F03BA28EDF /* Pods-RSCheckBoxDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSCheckBoxDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E787E1667A85717669E3197246620A25 /* Pods-RSCheckBoxDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSCheckBoxDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB44D131B2265A43B9F529A4C5508876 /* ZZCheckBoxButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCheckBoxButton.h; path = RSCheckBoxLib/Classes/ZZCheckBoxButton.h; sourceTree = "<group>"; };
+		FBFE401D7783CDDB90F293745BCF270C /* libPods-RSCheckBoxDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RSCheckBoxDemoUITests.a"; path = "libPods-RSCheckBoxDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC332BD17FD6BCFD587CCA0E80556B68 /* ZZSingleCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZSingleCheckBox.h; path = RSCheckBoxLib/Classes/ZZSingleCheckBox.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00BB5D9A65F7AE0AEB58FB00A5E13961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7DBA999906053088396388A193C0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB9247876F8F1038E545B79AB003CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD4EC7FF71B841ABA5A0E0D17D0D60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AB5A98CF9023C5993557CE7D50D1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853FDB9150D6618DB2D0B54B7389D76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE049B50F98CB4964147D25B17BCC11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50DE51F0B9D951852E4AA605562DBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA05205583E83F36CC9AFE145D67D07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1315CFEBD4CD1095CD7A5A4C07CC9B03 /* RSCheckBoxLib */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7ADD3B025573132EB09945A2CF224 /* ReplaceMe.m */,
+				C54E46C14BD27A46CE5F503A765388FB /* ZZCheckBox.h */,
+				4506BE3ABD10800741FD29BD44A82CFF /* ZZCheckBox.m */,
+				EB44D131B2265A43B9F529A4C5508876 /* ZZCheckBoxButton.h */,
+				CE5CEC30BBFC851BF9A7593C09A5407F /* ZZCheckBoxButton.m */,
+				2310CE3C7FE65B1C95690F3791C69427 /* ZZCheckBoxHeader.h */,
+				3609F4DFB28C4789BA6583540C4A0259 /* ZZMutableCheckBox.h */,
+				B367CEC553DC5D5AE3D2C7700E39EE5E /* ZZMutableCheckBox.m */,
+				FC332BD17FD6BCFD587CCA0E80556B68 /* ZZSingleCheckBox.h */,
+				C44DF0972AEBA8CFD60809A919FA306A /* ZZSingleCheckBox.m */,
+				509501A4919AED6E0FB3B17220550B01 /* Resources */,
+				7F171D5BEA7BBCC788E2E7708AAA4A90 /* Support Files */,
+			);
+			name = RSCheckBoxLib;
+			path = RSCheckBoxLib;
+			sourceTree = "<group>";
+		};
+		18B426A37318BC6969EC1302BDED8943 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1315CFEBD4CD1095CD7A5A4C07CC9B03 /* RSCheckBoxLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		196F13118C225ECBF3FAAF8EE5AD340C /* Pods-RSCheckBoxDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5669D3AF06702713CF7AF9D824A1A /* Pods-RSCheckBoxDemoUITests-acknowledgements.markdown */,
+				31ACBCEA269EF7953BE8939697E3E8B4 /* Pods-RSCheckBoxDemoUITests-acknowledgements.plist */,
+				13F43839C34645CA2CDF499B04A11895 /* Pods-RSCheckBoxDemoUITests-dummy.m */,
+				518B9E02BE6ED4FF3865DAF48DA95A26 /* Pods-RSCheckBoxDemoUITests-frameworks.sh */,
+				A909F5592E27001C62235D9B4968C5D3 /* Pods-RSCheckBoxDemoUITests-resources.sh */,
+				3B8CAD0739FD3985A49C922B348CF73F /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */,
+				DC1C4E8AB63619B2CE6214F03BA28EDF /* Pods-RSCheckBoxDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-RSCheckBoxDemoUITests";
+			path = "Target Support Files/Pods-RSCheckBoxDemoUITests";
+			sourceTree = "<group>";
+		};
+		4495B52FDC6104AABEBC3B8525032EA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				499C9201950D579282946041F0D68AC0 /* Pods-RSCheckBoxDemo */,
+				56B21CE8C9C157E0FA8E62057FCDA07F /* Pods-RSCheckBoxDemoTests */,
+				196F13118C225ECBF3FAAF8EE5AD340C /* Pods-RSCheckBoxDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		499C9201950D579282946041F0D68AC0 /* Pods-RSCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88ADEA2B969FC59233EA29CF9907516A /* Pods-RSCheckBoxDemo-acknowledgements.markdown */,
+				833C59A290FA52F0D101CA504CF86321 /* Pods-RSCheckBoxDemo-acknowledgements.plist */,
+				93610D82F66F1930F331C4607D6894E8 /* Pods-RSCheckBoxDemo-dummy.m */,
+				C45C46BAAE8E34A1D7E31ACE915B5EEC /* Pods-RSCheckBoxDemo-frameworks.sh */,
+				B1C5CB9049FD4E37F73F8FF79EEA8809 /* Pods-RSCheckBoxDemo-resources.sh */,
+				178355BF95DB4FB57AC4F6FF34BBB1CB /* Pods-RSCheckBoxDemo.debug.xcconfig */,
+				69829C4B0369741B14994EFE85C6E126 /* Pods-RSCheckBoxDemo.release.xcconfig */,
+			);
+			name = "Pods-RSCheckBoxDemo";
+			path = "Target Support Files/Pods-RSCheckBoxDemo";
+			sourceTree = "<group>";
+		};
+		509501A4919AED6E0FB3B17220550B01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D18B808B8D61D7FD617E985DF9F1F15 /* but_select_nor@2x.png */,
+				76DCAD65CFC4E77B19A2431F8B1F2C3A /* but_select_nor@3x.png */,
+				C61F112C35F4293A503E7DCBD072D01F /* but_select_press@2x.png */,
+				67A3319A466D74F8107DA08C4F76899D /* but_select_press@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		56B21CE8C9C157E0FA8E62057FCDA07F /* Pods-RSCheckBoxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8194C51D6733B0B9FA38EE5C47BFF05C /* Pods-RSCheckBoxDemoTests-acknowledgements.markdown */,
+				E787E1667A85717669E3197246620A25 /* Pods-RSCheckBoxDemoTests-acknowledgements.plist */,
+				374847449FD94AFC8DE93EA1242E8775 /* Pods-RSCheckBoxDemoTests-dummy.m */,
+				972D4946464FE84C6BE162AD9FC43E61 /* Pods-RSCheckBoxDemoTests-frameworks.sh */,
+				90EC655C7BA669BD83E1C4A25CEB49F2 /* Pods-RSCheckBoxDemoTests-resources.sh */,
+				01352AF5BB10242A467583EB8C8AE85A /* Pods-RSCheckBoxDemoTests.debug.xcconfig */,
+				113FB55041C039B5C57B7F067FE6B243 /* Pods-RSCheckBoxDemoTests.release.xcconfig */,
+			);
+			name = "Pods-RSCheckBoxDemoTests";
+			path = "Target Support Files/Pods-RSCheckBoxDemoTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				18B426A37318BC6969EC1302BDED8943 /* Pods */,
+				9561856A6C346E217C79C41BDA844AEA /* Products */,
+				4495B52FDC6104AABEBC3B8525032EA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F171D5BEA7BBCC788E2E7708AAA4A90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E77FD57B2B94BBB4316531707757B58 /* ResourceBundle-RSCheckBoxLib-Info.plist */,
+				D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */,
+				564CE90736FF23E6031791C6EB2694D2 /* RSCheckBoxLib-dummy.m */,
+				D770C29AE444C872BA9F48D6063BA00B /* RSCheckBoxLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSCheckBoxLib";
+			sourceTree = "<group>";
+		};
+		9561856A6C346E217C79C41BDA844AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A36A9D16588B948E92D50B9E9E45A73 /* libPods-RSCheckBoxDemo.a */,
+				2FEFA80CAB07E16029538BFF2A0144A8 /* libPods-RSCheckBoxDemoTests.a */,
+				FBFE401D7783CDDB90F293745BCF270C /* libPods-RSCheckBoxDemoUITests.a */,
+				00D58CC770760CCBA182B94A79AEDC6A /* libRSCheckBoxLib.a */,
+				86E54C509539EB6A342B120673305355 /* RSCheckBoxLib.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B247E8B9D7D68F01B390CEEA1533205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52E8D4850FAC600718CB4D4E3895B50 /* ZZCheckBox.h in Headers */,
+				E6DEAC97576330E94447F95FD7837AC0 /* ZZCheckBoxButton.h in Headers */,
+				D3BA2BC7A37620B0150504EED70E4E1A /* ZZCheckBoxHeader.h in Headers */,
+				6EAEB2DECA1AC4FBD15AF89D38DB29E2 /* ZZMutableCheckBox.h in Headers */,
+				20104944E9F550EE71B8AACD707AD79E /* ZZSingleCheckBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		013630261A20560629C05258D5C97CB2 /* Pods-RSCheckBoxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7B7CE3AE0496E055CCA73358E0CE6B /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemoUITests" */;
+			buildPhases = (
+				65FB9D572E4CB2AF08E1660C999E97C3 /* Sources */,
+				00BB5D9A65F7AE0AEB58FB00A5E13961 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RSCheckBoxDemoUITests";
+			productName = "Pods-RSCheckBoxDemoUITests";
+			productReference = FBFE401D7783CDDB90F293745BCF270C /* libPods-RSCheckBoxDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0575AE21C5DB0D669DB196A1B8E0A2D7 /* Pods-RSCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2879DA6839AFB8478D15392FAD7757F9 /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemo" */;
+			buildPhases = (
+				D5529D1AA5BD4B1325610429CBF628D8 /* Sources */,
+				853FDB9150D6618DB2D0B54B7389D76B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40051861DF1DC2595C092C448B4692A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSCheckBoxDemo";
+			productName = "Pods-RSCheckBoxDemo";
+			productReference = 5A36A9D16588B948E92D50B9E9E45A73 /* libPods-RSCheckBoxDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1C96840103F9EE157C61CF6F0F9EAC61 /* Pods-RSCheckBoxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196457BEE4704117BDBBA3C559B05842 /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemoTests" */;
+			buildPhases = (
+				F8C55D4BA9EC7372F937D36DE70AF9BF /* Sources */,
+				0CD4EC7FF71B841ABA5A0E0D17D0D60C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RSCheckBoxDemoTests";
+			productName = "Pods-RSCheckBoxDemoTests";
+			productReference = 2FEFA80CAB07E16029538BFF2A0144A8 /* libPods-RSCheckBoxDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C667ED6FC735BB1688DC0778BD793712 /* RSCheckBoxLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836C2AEE2E7B61253659119EA0B3474E /* Build configuration list for PBXNativeTarget "RSCheckBoxLib" */;
+			buildPhases = (
+				8DC6B023617F2672BE7D4AC9A0B40360 /* Sources */,
+				B50DE51F0B9D951852E4AA605562DBD2 /* Frameworks */,
+				8B247E8B9D7D68F01B390CEEA1533205 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621AF69CA2DFDD49B8B834898CF179B5 /* PBXTargetDependency */,
+			);
+			name = RSCheckBoxLib;
+			productName = RSCheckBoxLib;
+			productReference = 00D58CC770760CCBA182B94A79AEDC6A /* libRSCheckBoxLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7D2DED9AFAA869B36DD005456A031E7 /* RSCheckBoxLib-RSCheckBoxLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188DDAE1CFE1AA353DDDBEAFC5A81806 /* Build configuration list for PBXNativeTarget "RSCheckBoxLib-RSCheckBoxLib" */;
+			buildPhases = (
+				C65249EDFDF6832FC554DCC00EE4A237 /* Sources */,
+				0AB9247876F8F1038E545B79AB003CEE /* Frameworks */,
+				189BC405FF4D82EC39EAEB8F2BC00391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSCheckBoxLib-RSCheckBoxLib";
+			productName = "RSCheckBoxLib-RSCheckBoxLib";
+			productReference = 86E54C509539EB6A342B120673305355 /* RSCheckBoxLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9561856A6C346E217C79C41BDA844AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0575AE21C5DB0D669DB196A1B8E0A2D7 /* Pods-RSCheckBoxDemo */,
+				1C96840103F9EE157C61CF6F0F9EAC61 /* Pods-RSCheckBoxDemoTests */,
+				013630261A20560629C05258D5C97CB2 /* Pods-RSCheckBoxDemoUITests */,
+				C667ED6FC735BB1688DC0778BD793712 /* RSCheckBoxLib */,
+				C7D2DED9AFAA869B36DD005456A031E7 /* RSCheckBoxLib-RSCheckBoxLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189BC405FF4D82EC39EAEB8F2BC00391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1C0ED3B38DC7273EB4EB81B0DE3F7F /* but_select_nor@2x.png in Resources */,
+				F609C003301918C5054F6111648E0FB4 /* but_select_nor@3x.png in Resources */,
+				A225CE4A64C3CCC49E2226547F8468D6 /* but_select_press@2x.png in Resources */,
+				0C8783F898E8433D5111E4AD2EAF3623 /* but_select_press@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FB9D572E4CB2AF08E1660C999E97C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B14B8FBCEDE5D10C8B90D383266E2D /* Pods-RSCheckBoxDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B023617F2672BE7D4AC9A0B40360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3DA32FB24E3BB7A51197FBD46F0574 /* ReplaceMe.m in Sources */,
+				AD6135506EC08AF0914FACCE9DA94EE5 /* RSCheckBoxLib-dummy.m in Sources */,
+				547FA15942C8F5DA03C85121AE21F0A6 /* ZZCheckBox.m in Sources */,
+				8695C5E6E5A520C8BA79448AC3DB572D /* ZZCheckBoxButton.m in Sources */,
+				8DE213BD38E5434F8FE4A8BA4F319479 /* ZZMutableCheckBox.m in Sources */,
+				1A836CCED5F511BA9E54C60112ABAE48 /* ZZSingleCheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65249EDFDF6832FC554DCC00EE4A237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5529D1AA5BD4B1325610429CBF628D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2366EC4126A0E406BB040632D2C5C1 /* Pods-RSCheckBoxDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C55D4BA9EC7372F937D36DE70AF9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CEBF4273AD6729E21DB51A837A0564 /* Pods-RSCheckBoxDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40051861DF1DC2595C092C448B4692A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSCheckBoxLib;
+			target = C667ED6FC735BB1688DC0778BD793712 /* RSCheckBoxLib */;
+			targetProxy = 271164D5300E6DBFD95C7B0FD0500532 /* PBXContainerItemProxy */;
+		};
+		621AF69CA2DFDD49B8B834898CF179B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RSCheckBoxLib-RSCheckBoxLib";
+			target = C7D2DED9AFAA869B36DD005456A031E7 /* RSCheckBoxLib-RSCheckBoxLib */;
+			targetProxy = F88BEB89A1ADF5B1538114149846EE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D63560AB7A039CEF670E41B90F6EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RSCheckBoxLib/RSCheckBoxLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A064253A68FC50C52649B703E513864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113FB55041C039B5C57B7F067FE6B243 /* Pods-RSCheckBoxDemoTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC6FD58071FA1B3BFD09D856B3F2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RSCheckBoxLib/RSCheckBoxLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ACCBD7FF360476A95FA0AF1CADB7E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1C4E8AB63619B2CE6214F03BA28EDF /* Pods-RSCheckBoxDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FB5797EE4FAA0C9489CD0DE3CFCFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8CAD0739FD3985A49C922B348CF73F /* Pods-RSCheckBoxDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C554685676A740D1FFC6E3C4B9ADAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSCheckBoxLib";
+				INFOPLIST_FILE = "Target Support Files/RSCheckBoxLib/ResourceBundle-RSCheckBoxLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RSCheckBoxLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8EF8561CBB6C47746E51E2E7C7E00256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9897C3980F51332C7D932F126603B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73A330707312CDCC89F4556867C4EBE /* RSCheckBoxLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSCheckBoxLib";
+				INFOPLIST_FILE = "Target Support Files/RSCheckBoxLib/ResourceBundle-RSCheckBoxLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RSCheckBoxLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AC1CD9D644E03593532ED08EAA27EF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69829C4B0369741B14994EFE85C6E126 /* Pods-RSCheckBoxDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80191F8154FD771D111D3890B24D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C58065447E46E0C6C2A7BA81A99702ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01352AF5BB10242A467583EB8C8AE85A /* Pods-RSCheckBoxDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E141A20A19E05B9CCC20C7041A00A342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178355BF95DB4FB57AC4F6FF34BBB1CB /* Pods-RSCheckBoxDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188DDAE1CFE1AA353DDDBEAFC5A81806 /* Build configuration list for PBXNativeTarget "RSCheckBoxLib-RSCheckBoxLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C554685676A740D1FFC6E3C4B9ADAB0 /* Debug */,
+				9897C3980F51332C7D932F126603B5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196457BEE4704117BDBBA3C559B05842 /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58065447E46E0C6C2A7BA81A99702ED /* Debug */,
+				0A064253A68FC50C52649B703E513864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2879DA6839AFB8478D15392FAD7757F9 /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E141A20A19E05B9CCC20C7041A00A342 /* Debug */,
+				AC1CD9D644E03593532ED08EAA27EF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8561CBB6C47746E51E2E7C7E00256 /* Debug */,
+				B80191F8154FD771D111D3890B24D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836C2AEE2E7B61253659119EA0B3474E /* Build configuration list for PBXNativeTarget "RSCheckBoxLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC6FD58071FA1B3BFD09D856B3F2796 /* Debug */,
+				01D63560AB7A039CEF670E41B90F6EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7B7CE3AE0496E055CCA73358E0CE6B /* Build configuration list for PBXNativeTarget "Pods-RSCheckBoxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB5797EE4FAA0C9489CD0DE3CFCFA0 /* Debug */,
+				1ACCBD7FF360476A95FA0AF1CADB7E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
